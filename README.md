@@ -4,7 +4,7 @@ This repository includes the result of analyzing GitHub Availability Report. Thi
 
 The original data source is GitHub Tech Blog as below.
 
-https://github.blog/?s=Availability+Report
+https://github.blog/tag/github-availability-report/
 
 ## Usage
 
