@@ -2,6 +2,10 @@
 
 This repository includes the result of analyzing GitHub Availability Report. This program aims to collect realistic failure scenario for my study.
 
+The original data source is GitHub Tech Blog as below.
+
+https://github.blog/?s=Availability+Report
+
 ## Usage
 
 ```
