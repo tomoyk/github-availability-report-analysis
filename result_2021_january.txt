@@ -1,0 +1,3 @@
+URL: https://github.blog/news-insights/company-news/github-availability-report-january-2021/
+Introduction In January, we experienced one incident resulting in significant impact and degraded state of availability for the GitHub Actions service. January 28 04:21 UTC (lasting 3 hours 53 minutes)…
+January 28 04:21 UTC (lasting 3 hours 53 minutes)

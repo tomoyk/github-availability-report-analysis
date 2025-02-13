@@ -1,0 +1,4 @@
+URL: https://github.blog/news-insights/company-news/github-availability-report-october-2023/
+October 17 10:59 UTC (lasting 2 hours and 49 minutes)
+October 25 09:13 UTC (lasting 3 hours and 27 minutes cumulatively)
+GitHub Copilot completions are currently hosted in multiple regions globally. Users are typically routed to the nearest geographic region, but may be routed to other regions when the nearest region is unhealthy. Beginning at 09:13 UTC on October 25, GitHub Copilot began experiencing partial outages of individual regions, lasting  approximately 12 minutes per region. These outages were due to the nodes hosting the completion model being upgraded by an automated process, and a subset of GitHub Copilot users experienced completion errors during this timeframe. The issue was fully resolved at 02:40 UTC on October 26.
