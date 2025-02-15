@@ -22,3 +22,9 @@ $ python --version
 Python 3.12.2
 ```
 
+
+## Summary
+
+```
+ggrep -RoP -h '\(lasting [^)]+' results/* | gsed -e 's/(lasting //g' -e 's/for //g' | perl -pe 'BEGIN { %m = (one=>1, two=>2, three=>3, four=>4, five=>5, six=>6, seven=>7, eight=>8, nine=>9) } s/\b(one|two|three|four|five|six|seven|eight|nine)\b/$m{lc($1)}/g' - | gsed 's/and //g' | tr -d ,
+```
