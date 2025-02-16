@@ -6,7 +6,23 @@ The original data source is GitHub Tech Blog as below.
 
 https://github.blog/tag/github-availability-report/
 
+## Results
+
+<img src="graph.png">
+
+## Prerequisite
+
+```
+$ python --version
+Python 3.12.2
+
+$ gnuplot --version
+gnuplot 6.0 patchlevel 2
+```
+
 ## Usage
+
+Crawler
 
 ```
 python -m venv env
@@ -15,16 +31,13 @@ pip install BeautifulSoup4 requests
 python crawl.py
 ```
 
-## Prerequisite
+Summarizer
 
 ```
-$ python --version
-Python 3.12.2
-```
+bash summary.sh
+python summary2.py
+python summary3.py
 
-
-## Summary
-
-```
-ggrep -RoP -h '\(lasting [^)]+' results/* | gsed -e 's/(lasting //g' -e 's/for //g' | perl -pe 'BEGIN { %m = (one=>1, two=>2, three=>3, four=>4, five=>5, six=>6, seven=>7, eight=>8, nine=>9) } s/\b(one|two|three|four|five|six|seven|eight|nine)\b/$m{lc($1)}/g' - | gsed 's/and //g' | tr -d ,
+# create graph
+make
 ```
