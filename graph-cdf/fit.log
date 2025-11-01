@@ -1,0 +1,458 @@
+
+
+*******************************************************************************
+Sat Nov  1 15:34:13 2025
+
+
+FIT:    data read from "github-available-report-analysis-cdf.tsv"
+        format = z
+        x range restricted to [0.00000 : 3500.00]
+BREAK: bad data on line 1 of datafile
+
+*******************************************************************************
+Sat Nov  1 15:34:28 2025
+
+
+FIT:    data read from "github-available-report-analysis-cdf.tsv" using 1:2
+        format = x:z
+        x range restricted to [0.00000 : 3500.00]
+        #datapoints = 36
+        residuals are weighted equally (unit weight)
+
+function used for fitting: 1.0/(1.0+(x/alpha)**(-beta))
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 1 out of 36
+x               = 51.41          
+z               = 0              
+
+Current set of parameters
+=========================
+alpha           = 51.41          
+beta            = 1.193          
+
+BREAK: Undefined value during function evaluation
+
+*******************************************************************************
+Sat Nov  1 15:34:48 2025
+
+
+FIT:    data read from "github-available-report-analysis-cdf.tsv" using 1:2
+        format = x:z
+        x range restricted to [0.00000 : 3500.00]
+        #datapoints = 36
+        residuals are weighted equally (unit weight)
+
+function used for fitting: 1.0/(1.0+(x/alpha)**(-beta))
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 1 out of 36
+x               = 51.41          
+z               = 0              
+
+Current set of parameters
+=========================
+alpha           = 51.41          
+beta            = 1.193          
+
+BREAK: Undefined value during function evaluation
+
+*******************************************************************************
+Sat Nov  1 15:35:21 2025
+
+
+FIT:    data read from "github-available-report-analysis-cdf.tsv" using 1:2
+        format = x:z
+        x range restricted to [0.00000 : 3500.00]
+        #datapoints = 36
+        residuals are weighted equally (unit weight)
+
+function used for fitting: 1.0/(1.0+(x/alpha)**(-beta))
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 1 out of 36
+x               = 1              
+z               = 0              
+
+Current set of parameters
+=========================
+alpha           = 1              
+beta            = 1              
+
+BREAK: Undefined value during function evaluation
+
+*******************************************************************************
+Sat Nov  1 15:37:43 2025
+
+
+FIT:    data read from "github-available-report-analysis-cdf.tsv" using 1:2
+        format = x:z
+        x range restricted to [0.00000 : 3500.00]
+        #datapoints = 36
+        residuals are weighted equally (unit weight)
+
+function used for fitting: 1.0/(1.0+(x/alpha)**(-beta))
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 1 out of 36
+x               = 1              
+z               = 0              
+
+Current set of parameters
+=========================
+alpha           = 1              
+beta            = 1              
+
+BREAK: Undefined value during function evaluation
+
+*******************************************************************************
+Sat Nov  1 15:38:28 2025
+
+
+FIT:    data read from "github-available-report-analysis-cdf.tsv" using 1:2
+        format = x:z
+        x range restricted to [0.00000 : 3500.00]
+        #datapoints = 36
+        residuals are weighted equally (unit weight)
+
+function used for fitting: 1.0/(1.0+(x/alpha)**(-beta))
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 1 out of 36
+x               = 1              
+z               = 0              
+
+Current set of parameters
+=========================
+alpha           = 1              
+beta            = 1              
+
+BREAK: Undefined value during function evaluation
+
+*******************************************************************************
+Sat Nov  1 15:38:38 2025
+
+
+FIT:    data read from "github-available-report-analysis-cdf.tsv" using 1:2
+        format = x:z
+        x range restricted to [0.00000 : 3500.00]
+        #datapoints = 36
+        residuals are weighted equally (unit weight)
+
+function used for fitting: 1.0/(1.0+(x/alpha)**(-beta))
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 1 out of 36
+x               = 1              
+z               = 0              
+
+Current set of parameters
+=========================
+alpha           = 1              
+beta            = 1              
+
+BREAK: Undefined value during function evaluation
+
+*******************************************************************************
+Sat Nov  1 15:39:34 2025
+
+
+FIT:    data read from "github-available-report-analysis-cdf.tsv" using 1:2
+        format = x:z
+        x range restricted to [0.00000 : 3500.00]
+        #datapoints = 36
+        residuals are weighted equally (unit weight)
+
+function used for fitting: loglogistic(x)
+	loglogistic(x) = 1.0 / (1.0 + (x/alpha)**(-beta))
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 1 out of 36
+x               = 51.41          
+z               = 0              
+
+Current set of parameters
+=========================
+alpha           = 51.41          
+beta            = 1.193          
+
+BREAK: Undefined value during function evaluation
+
+*******************************************************************************
+Sat Nov  1 15:40:45 2025
+
+
+FIT:    data read from "github-available-report-analysis-cdf.tsv" using 1:2
+        format = x:z
+        x range restricted to [0.00000 : 3500.00]
+        #datapoints = 36
+        residuals are weighted equally (unit weight)
+
+function used for fitting: loglogistic(x)
+	loglogistic(x) = 1.0 / (1.0 + (x/a)**(-b))
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 1 out of 36
+x               = 1              
+z               = 0              
+
+Current set of parameters
+=========================
+a               = 1              
+b               = 1              
+
+BREAK: Undefined value during function evaluation
+
+*******************************************************************************
+Sat Nov  1 15:41:25 2025
+
+
+FIT:    data read from "github-available-report-analysis-cdf.tsv" using 1:2
+        format = x:z
+        x range restricted to [0.00000 : 3500.00]
+        #datapoints = 36
+        residuals are weighted equally (unit weight)
+
+function used for fitting: loglogistic(x)
+	loglogistic(x) = 1.0 / (1.0 + (x/a)**(-b))
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 1 out of 36
+x               = 51.41          
+z               = 0              
+
+Current set of parameters
+=========================
+a               = 51.41          
+b               = 1.193          
+
+BREAK: Undefined value during function evaluation
+
+*******************************************************************************
+Sat Nov  1 15:41:57 2025
+
+
+FIT:    data read from "github-available-report-analysis-cdf.tsv" using 1:2
+        format = x:z
+        x range restricted to [0.00000 : 3500.00]
+        #datapoints = 36
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 1.0 / (1.0 + (x/a)**(-b))
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 1 out of 36
+x               = 51.41          
+z               = 0              
+
+Current set of parameters
+=========================
+a               = 51.41          
+b               = 1.193          
+
+BREAK: Undefined value during function evaluation
+
+*******************************************************************************
+Sat Nov  1 15:45:40 2025
+
+
+FIT:    data read from "github-available-report-analysis-cdf.tsv" using 1:2
+        format = x:z
+        x range restricted to [0.00000 : 3500.00]
+        #datapoints = 36
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 1.0 / (1.0 + exp(-alpha * x + beta))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   alpha         beta         
+   0 3.8417872197e-01   0.00e+00  2.51e-02    5.141000e+01   1.193000e+00
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sat Nov  1 15:46:38 2025
+
+
+FIT:    data read from "github-available-report-analysis-cdf.tsv" using 1:2
+        format = x:z
+        x range restricted to [0.00000 : 3500.00]
+        #datapoints = 36
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 1.0 / (1.0 + exp(-(alpha * x + beta)))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   alpha         beta         
+   0 9.1873308682e-01   0.00e+00  2.51e-02    5.141000e+01   1.193000e+00
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sat Nov  1 15:48:18 2025
+
+
+FIT:    data read from "github-available-report-analysis-cdf.tsv" using 1:2
+        format = x:z
+        x range restricted to [0.00000 : 3500.00]
+        #datapoints = 36
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 1.0 / (1.0 + (x/alpha)**(-beta))
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 1 out of 36
+x               = 51.41          
+z               = 0              
+
+Current set of parameters
+=========================
+alpha           = 51.41          
+beta            = 1.193          
+
+BREAK: Undefined value during function evaluation
+
+*******************************************************************************
+Sat Nov  1 15:49:45 2025
+
+
+FIT:    data read from "github-available-report-analysis-cdf.tsv" using ($1>0?$1:1/0):2
+        format = x:z
+        x range restricted to [0.00000 : 3500.00]
+        #datapoints = 35
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 1.0 / (1.0 + (x/alpha)**(-beta))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   alpha         beta         
+   0 3.6050641105e-02   0.00e+00  8.06e-02    5.141000e+01   1.193000e+00
+   4 2.8994797365e-03  -1.27e-01  8.06e-06    9.208550e+01   1.471731e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.00289948
+rel. change during last iteration : -1.26796e-06
+
+degrees of freedom    (FIT_NDF)                        : 33
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00937353
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.7863e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+alpha           = 92.0855          +/- 2.248        (2.442%)
+beta            = 1.47173          +/- 0.03549      (2.411%)
+
+correlation matrix of the fit parameters:
+                alpha  beta   
+alpha           1.000 
+beta            0.711  1.000 
+
+
+*******************************************************************************
+Sat Nov  1 15:50:30 2025
+
+
+FIT:    data read from "github-available-report-analysis-cdf.tsv" using ($1>0?$1:1/0):2
+        format = x:z
+        x range restricted to [0.00000 : 3500.00]
+        #datapoints = 35
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 1.0 / (1.0 + (x/alpha)**(-beta))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   alpha         beta         
+   0 3.6050641105e-02   0.00e+00  8.06e-02    5.141000e+01   1.193000e+00
+   4 2.8994797365e-03  -1.27e-01  8.06e-06    9.208550e+01   1.471731e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.00289948
+rel. change during last iteration : -1.26796e-06
+
+degrees of freedom    (FIT_NDF)                        : 33
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00937353
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.7863e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+alpha           = 92.0855          +/- 2.248        (2.442%)
+beta            = 1.47173          +/- 0.03549      (2.411%)
+
+correlation matrix of the fit parameters:
+                alpha  beta   
+alpha           1.000 
+beta            0.711  1.000 
+
+
+*******************************************************************************
+Sat Nov  1 15:50:47 2025
+
+
+FIT:    data read from "github-available-report-analysis-cdf.tsv" using ($1>0?$1:1/0):2
+        format = x:z
+        x range restricted to [0.00000 : 3500.00]
+        #datapoints = 35
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = 1.0 / (1.0 + (x/alpha)**(-beta))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   alpha         beta         
+   0 2.9842226521e-02   0.00e+00  8.74e-02    5.100000e+01   1.100000e+00
+   4 2.8994797398e-03  -1.20e-01  8.74e-06    9.208552e+01   1.471731e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.00289948
+rel. change during last iteration : -1.19958e-06
+
+degrees of freedom    (FIT_NDF)                        : 33
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00937353
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.7863e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+alpha           = 92.0855          +/- 2.248        (2.442%)
+beta            = 1.47173          +/- 0.03549      (2.411%)
+
+correlation matrix of the fit parameters:
+                alpha  beta   
+alpha           1.000 
+beta            0.711  1.000 

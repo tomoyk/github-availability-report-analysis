@@ -31,12 +31,21 @@ set key at 3500,0.3
 unset border
 set border 3
 
-# ログロジスティック関数の定義
-beta = 1.1930
-alpha = 51.41
-loglogistic(x) = 1.0 / (1.0 + (x/alpha)**(-beta))
+# ログロジスティック関数の定義と初期値
+alpha = 51
+beta = 1.1
+f(x) = 1.0 / (1.0 + (x/alpha)**(-beta))
+
+# フィッティング（x > 0のデータのみ使用）
+fit f(x) "github-available-report-analysis-cdf.tsv" using ($1>0?$1:1/0):2 via alpha,beta
 
 plot "github-available-report-analysis-cdf.tsv" using 1:2 with lines \
      lw 4 lt rgb "#1E90FF" notitle, \
-     loglogistic(x) with lines \
+     f(x) with lines \
      lw 4 lt rgb "#FF6347" dashtype 2 title "Log-logistic \n({/Symbol b}=1.193, {/Symbol a}=51.41)"
+
+# # PNG
+# set terminal png
+# set output "fault-scenario-cdf.png"
+# set termoption enhanced
+# replot
